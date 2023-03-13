@@ -1,0 +1,127 @@
+body {
+	background-color: black;
+
+}
+
+.main {
+	background-color: white;
+	margin-top: 110px;
+	padding-left: 100px;
+	min-width: 1200px;
+	height: 500px;
+	position: relative;
+	z-index: 1;
+}
+.margin-fo-z {
+	    margin: -72px 10px;
+	    
+}
+.margin-fo-x {
+	    
+	        margin: -61px -8px;
+}
+
+
+.ryu {
+	width: 659px;
+	height: 494px;
+}
+
+.ryu-still, .ryu-cool, .ryu-ready, .ryu-throwing {
+	width: 659px;
+	height: 494px;
+}
+
+.ryu-ready, .ryu-throwing, .ryu-cool {
+	display: none;
+}
+
+
+.ryu-still {
+	background-image: url('../images/ryu-standing-still.png');
+
+}
+
+.ryu-ready {
+	background-image: url('../images/ryu-ready-position.gif');
+	
+}
+
+.ryu-throwing {
+	background-image: url('../images/ryu-throwing-hadouken.png');
+	
+}
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+	
+}
+
+.hadouken, .ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool {
+	background-repeat: no-repeat;
+}
+
+.hadouken, .hadouken1 {
+	background-image: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	float: left;
+	position: absolute;
+	top: 167px;
+	left: 520px;
+	z-index: 10;
+}
+
+
+
+/*part 2*/
+.hulk-ryu {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    width: 300px;
+    float: right;
+}
+h1 {
+	color: white;
+}
+.ryu1 {
+	width: 659px;
+	height: 494px;
+}
+
+.ryu-still1, .ryu-cool1, .ryu-ready1, .ryu-throwing1 {
+	width: 659px;
+	height: 494px;
+}
+
+.ryu-ready1, .ryu-throwing1, .ryu-cool1 {
+	display: none;
+}
+
+
+.ryu-still1 {
+	background-image: url('../images/ryu-standing-still.png');
+
+}
+
+.ryu-ready1 {
+	background-image: url('../images/ryu-ready-position.gif');
+	
+}
+
+.ryu-throwing1 {
+	background-image: url('../images/ryu-throwing-hadouken.png');
+	
+}
+.ryu-cool1 {
+	background-image: url('../images/ryu-cool.gif');
+	
+}
+
+.hadouken1, .ryu-still1, .ryu-ready1, .ryu-throwing1, .ryu-cool1 {
+	background-repeat: no-repeat;
+}
